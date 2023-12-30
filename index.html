@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Joke teller using joke api" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <h1 id="main-head">Joke Generator.</h1>
+    <!-- some random joke -->
+    <textarea
+      id="joke-content"
+      placeholder="Your joke goes here,..."
+    ></textarea>
+    <section id="form-data">
+      <form href="/" method="post">
+        <div>
+          <label>Joke Type : </label>
+          <input type="radio" id="single" name="type" value="single" checked />
+          <label for="single">Single</label>
+          <input type="radio" id="twopart" name="type" value="twopart" />
+          <label for="twopart">Two Part</label>
+        </div>
+        <div>
+          <label for="cat"> Choose a Category : </label>
+          <select id="cat" name="category">
+            <option value="Programming">Programming</option>
+            <option value="Misc">Misc</option>
+            <option value="Dark">Dark</option>
+            <option value="Pun">Pun</option>
+            <option value="Spooky">Spooky</option>
+            <option value="Christmas">Christmas</option>
+          </select>
+        </div>
+        <div class="left">
+          <input type="submit" value="Get Joke" />
+        </div>
+      </form>
+    </section>
+    <script src="scripts/index.js"></script>
+    <script></script>
+  </body>
+</html>

@@ -27,13 +27,21 @@ body {
   display: flex;
   flex-flow: column wrap;
 }
+
 #form-data form div {
   margin: 5px;
 }
+
 #form-data form .left {
   display: flex;
   justify-content: center;
 }
+
+#cat {
+  background-color: #000;
+  color: #fff;
+}
+
 input[type="submit"] {
   border: 3px inset grey;
   border-radius: 5px;
